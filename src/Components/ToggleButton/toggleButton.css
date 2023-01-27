@@ -1,0 +1,46 @@
+.toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button__line {
+    width: 30px;
+    height: 2px;
+    background: white;
+    transition-duration: 0.5s;
+}
+
+.toggle-button__line:nth-child(1){
+    top:17px;
+  }
+  .toggle-button__line:nth-child(2){
+    top:24px;
+  }
+  .toggle-button__line:nth-child(3){
+    top:31px;
+  }
+.toggle-button.active .toggle-button__line:nth-child(1){
+  transform-origin: top left;
+  transform: rotate(40deg);
+  transition-duration: 0.5s; 
+}
+.toggle-button.active .toggle-button__line:nth-child(2){
+  opacity: 0; 
+}
+.toggle-button.active .toggle-button__line:nth-child(3){
+	transform-origin: bottom left;
+  transform: rotate(-40deg);
+  transition-duration: 0.5s;
+} 

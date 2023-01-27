@@ -1,0 +1,155 @@
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #1e1e1e;
+  } 
+  .contact-sec
+   {
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  }
+
+  .button:hover {
+    box-shadow: 0 0 0 4px #cde1f8;
+  }
+  
+  .overlay-back {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    background-color: #fc466b;
+  } 
+  .contact-sec {
+    position: relative;
+    padding: 8rem 0;
+  }
+  .gen-margin {
+    margin-top: 4rem;
+  }
+  .title-box-2 {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+  .title-left {
+    font-size: 2rem;
+    position: relative;
+  }
+  
+  .title-left:before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: #7914e1;
+    width: 100px;
+    bottom: -12px;
+  }
+  .box-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+
+  }
+  .footer-sec {
+    padding: 4rem 0 0 0;
+  }
+  .contact-margin {
+    margin-top: 4rem;
+  }
+  footer {
+    text-align: center;
+    color: #1e1e1e;
+    padding-bottom: 4rem;
+  } 
+  footer .copyright {
+    margin-bottom: .3rem;
+  } 
+ .custom-select-tag{
+      height: 50px;
+      border-radius: 10px;
+      margin-top: 10px;
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  
+  .contact-form-iamge img{
+    height: 92vh;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 50px;
+  
+  }
+  .button-submit{
+    margin-bottom: 50px;
+  }
+  .button-submit p{
+    background-color: #cde1f8;
+    padding: 10px;
+    border-radius: 30px;
+    color: #7914e1;
+    width: 50%;
+    margin-top: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.button-submit p:hover{
+
+    background-color: #fa923f;
+    transition-duration: 1s;
+    color:#fff
+}
+  @media (min-width: 577px) {
+    .counter-box {
+      margin-bottom: 1.8rem;
+    }
+  }
+  @media (min-width: 767px) {
+    .contact-margin{
+      margin-top: 3rem;
+      padding-left: 0rem;
+    }
+  }
+  
+  @media (min-width: 767px) {
+    .box-full {
+      padding: 3rem;
+    }
+  }
+  @media (max-width: 767px) {
+    .mapDisplay {
+      position: relative;
+      width:100%;
+      height: 100vh;
+      padding: 3rem;
+      margin-right: 2rem;
+    }
+  }
+  @media (min-width: 768px) {
+    .mapDisplay {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      padding-top: 3rem;
+      padding-right: 5rem;
+      padding-left: 0rem !important;
+    }
+  }
+  
+  
+
+
+  
