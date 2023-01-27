@@ -10,7 +10,7 @@ import back from "../../images/back.png";
 import program from "../../images/program.jpg";
 
 const Contact = () => {
-  const API = "http://localhost:3001/contactme";
+  const API = `${process.env.REACT_APP_BASE_URL}/contactme`;
 
   const [name, setName] = useState();
   const [email, setEmail] = useState();
