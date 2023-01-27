@@ -159,7 +159,7 @@ class Portfolio extends Component {
                           </h5>{" "}
                           <small className="d-block text-uppercase font-weight-bold text-muted">
                             <time datetime="2017-01">Nov-2019</time> &ndash;{" "}
-                            <time datetime="2017-12">Present</time>
+                            <time datetime="2017-12">OCT-2020</time>
                           </small>
                         </div>
                       </div>
